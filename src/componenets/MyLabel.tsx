@@ -33,7 +33,7 @@ export const MyLabel = ({
                           allCaps = false,
                           color   = 'text-primary',
                           backgroundColor,
-                          borderRadius
+                          borderRadius = "1px"
                         }: MyLabelProps) => {
   return (
     <span className={`${ size } ${ color }`} style={{ backgroundColor, borderRadius }}>

@@ -55,3 +55,10 @@ LabelRadius.args = {
   label: "Label Radius",
   color: "text-primary"
 }
+
+export const newLabel = Template.bind({})
+LabelRadius.args = {
+  size: "h1",
+  label: "New Label",
+  color: "text-primary"
+}

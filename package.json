@@ -21,7 +21,7 @@
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=d997b4b91237"
+    "chromatic": "npx chromatic --project-token=e2d8a63473e8"
   },
   "eslintConfig": {
     "extends": [
