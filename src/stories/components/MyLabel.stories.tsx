@@ -17,7 +17,8 @@ export const Basic = Template.bind({})
 Basic.args = {
   size: "normal",
   label: "Basic Label",
-  allCaps: false
+  allCaps: false,
+  borderRadius: "10px"
 }
 
 export const Secondary = Template.bind({})
@@ -46,4 +47,11 @@ CustomFontColor.args = {
   size: "h1",
   label: "Custom Font Color",
   color: "text-tertiary"
+}
+
+export const LabelRadius = Template.bind({})
+LabelRadius.args = {
+  size: "h1",
+  label: "Label Radius",
+  color: "text-primary"
 }

@@ -21,6 +21,10 @@ export interface MyLabelProps {
    * Background color of the label
    */
   backgroundColor?: string;
+  /**
+   * Border Radius for the label
+   */
+  borderRadius?: string;
 }
 
 export const MyLabel = ({
@@ -28,10 +32,11 @@ export const MyLabel = ({
                           size    = 'normal',
                           allCaps = false,
                           color   = 'text-primary',
-                          backgroundColor
+                          backgroundColor,
+                          borderRadius
                         }: MyLabelProps) => {
   return (
-    <span className={`${ size } ${ color }`} style={{ backgroundColor }}>
+    <span className={`${ size } ${ color }`} style={{ backgroundColor, borderRadius }}>
        { allCaps ? label?.toUpperCase() : label }
     </span>
   );

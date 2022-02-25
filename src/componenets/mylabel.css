@@ -5,18 +5,22 @@
 
 .normal {
   font-size: 14px;
+  padding: 5px;
 }
 
 .h1 {
   font-size: 30px;
+  padding: 10px
 }
 
 .h2 {
   font-size: 25px;
+  padding: 9px
 }
 
 .h3 {
   font-size: 20px;
+  padding: 7px
 }
 
 .text-primary {
