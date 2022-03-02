@@ -1,5 +1,6 @@
 import React from 'react';
 import './button.css';
+import MyLabel from "../componenets/MyLabel";
 
 export interface ButtonProps {
   /**
@@ -46,3 +47,5 @@ export const Button = ({
     </button>
   );
 };
+
+export default Button;
